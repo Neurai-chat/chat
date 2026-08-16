@@ -1,1 +1,14 @@
+{
+  "name": "Neurai Chat",
+  "short_name": "Neurai",
+  "start_url": "/chat/",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "/chat/IMG_4289.jpeg",
+      "sizes": "512x512",
+      "type": "image/jpeg"
+    }
+  ]
+}
 

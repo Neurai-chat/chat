@@ -21,7 +21,7 @@ export default async function handler(req, res) {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
-      "Authorization": `Bearer ${process.env.YOUR_API_KEY_HERE}`
+      "Authorization": `Bearer ${process.env.YOUR_GROQ_API_KEY}`
     },
     body: JSON.stringify({
       model: "gpt-oss-20b",

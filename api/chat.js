@@ -21,7 +21,7 @@ export default async function handler(req, res) {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
-      "Authorization": `Bearer ${process.env.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}`
+      "Authorization": `Bearer ${process.env.YOUR_API_KEY_HERE}`
     },
     body: JSON.stringify({
       model: "llama3-8b-8192",

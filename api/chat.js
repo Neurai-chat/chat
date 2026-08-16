@@ -24,7 +24,7 @@ export default async function handler(req, res) {
       "Authorization": `Bearer ${process.env.YOUR_API_KEY_HERE}`
     },
     body: JSON.stringify({
-      model: "llama3-8b-8192",
+      model: "gpt-oss-20b",
       messages: global.history
     })
   });

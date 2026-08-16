@@ -1,1 +1,2 @@
+window.YOUR_GROQ_API_KEY = "IDE_ÍRD_A_KULCSOD";
 

@@ -21,7 +21,8 @@ app.post("/chat", async (req, res) => {
   history.push({ role: "user", content: userMessage });
 
   // elküldjük a teljes history-t a modellnek
-  const response = await fetch("https://api.groq.com/openai/v1/chat/completions", {
+  const response = await fetch("https://pulse-proxy-3n26.onrender.com/chat
+", {
     method: "POST",
     headers: {
       "Content-Type": "application/json",

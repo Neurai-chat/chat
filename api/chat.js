@@ -25,7 +25,6 @@ export default async function handler(req, res) {
 
     },
     body: JSON.stringify({
-      model: "gpt-oss-20b",
       messages: global.history
     })
   });

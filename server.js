@@ -25,8 +25,8 @@ app.post("/chat", async (req, res) => {
 ", {
     method: "POST",
     headers: {
-      "Content-Type": "application/json",
-      "Authorization": `Bearer YOUR_GROQ_API_KEY`
+      "Content-Type": "application/json"
+  
     },
     body: JSON.stringify({
       model: "gpt-oss-20b",

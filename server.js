@@ -29,7 +29,7 @@ app.post("/chat", async (req, res) => {
   
     },
     body: JSON.stringify({
-      model: "gpt-oss-20b",
+
       messages: history
     })
   });
